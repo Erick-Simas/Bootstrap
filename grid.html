@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seja bem vindo a Echo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+<body>
+    <!--grids sao linhas que criamos para trabalhar com o conteúdo como se fossem blocos de tabelas, podendo adapta-los conforme o tamanho que precisamos, para cria-la temos que ter uma div mae e o conteudo alterado serao divs filho-->
+
+    <div class="row"><!--utilizamos row para criar uma linha, toda vez que utilizarmos esse metodo devemos usar row na div mae para assim a classe de colunas funcionar nas divs filho-->
+        <div class="col-3 border">1</div><!--col é a classe para indicarmos quantas colunas aquee conteúdo preencherá na tela, sendo a tela dividida em 12-->
+        <div class="col-5 border">2</div>
+        <div class="col-1 border">3</div>
+    </div>
+    <div class="container-fluid border border-primary p-3"><!--a classe P do bootstrap serve para colocar o padding e o numero a frente dele serve para indicar o tamanho-->
+        <div class="row">
+            <div class="col-1 border text-center">Col. 1</div>
+            <div class="col-1 border text-center">Col. 2</div>
+            <div class="col-1 border text-center">Col. 3</div>
+            <div class="col-1 border text-center">Col. 4</div>
+            <div class="col-1 border text-center">Col. 5</div>
+            <div class="col-1 border text-center">Col. 6</div>
+            <div class="col-1 border text-center">Col. 7</div>
+            <div class="col-1 border text-center">Col. 8</div>
+            <div class="col-1 border text-center">Col. 9</div>
+            <div class="col-1 border text-center">Col. 10</div>
+            <div class="col-1 border text-center">Col. 11</div>
+            <div class="col-1 border text-center">Col. 12</div>
+        </div>
+        <div class="row">
+            <div class="col-3 border text-center">Col. 1</div>
+            <div class="col-3 border text-center">Col. 2</div>
+            <div class="col-3 border text-center">Col. 3</div>
+            <div class="col-3 border text-center">Col. 4</div>
+        </div>
+        <div class="row">
+            <div class="col-6 border text-center">Col. 1</div>
+            <div class="col-6 border text-center">Col. 2</div>
+        </div>
+        <div class="row">
+            <div class="col-12 border text-center">Col.1</div>
+        </div>
+        
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
